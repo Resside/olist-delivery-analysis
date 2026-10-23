@@ -1,0 +1,6 @@
+.venv*/
+__pycache__/
+.ipynb_checkpoints/
+data/raw/*.csv
+data/processed/
+reports/tables/sql_01_order_amounts.csv

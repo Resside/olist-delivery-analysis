@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "checks": [
+    "Unique keys and referential integrity",
+    "One row per order after all joins",
+    "Exact integer-cent reconciliation of merchandise and payments",
+    "All SQL queries executed on SQLite",
+    "SQL/Python count and amount reconciliations"
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "sqlite": "3.53.1"
+  },
+  "notebook_validation": {
+    "method": "IPython sequential in-process execution",
+    "status": "passed",
+    "jupyter_kernel_launch": "blocked by environment socket restrictions"
+  }
+}
